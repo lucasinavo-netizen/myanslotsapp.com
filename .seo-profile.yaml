@@ -1,0 +1,61 @@
+# SEO Profile — single source of truth for this site.
+# Every employee agent MUST read this before acting on the site.
+# Update `current_state` + `last_full_audit` after every audit.
+
+url: myanslotsapp.com
+url_canonical: https://myanslotsapp.com/
+brand_name: Myan Slots App
+
+# Infrastructure
+framework: static-html
+hosting: vercel
+github_repo: lucasinavo-netizen/myanslotsapp.com
+# Note: clean source copy is maintained under lucasinavo-netizen; Vercel Git binding still needs to be moved off LUCAS-del-coder.
+
+
+# Analytics
+gsc:
+  property: https://myanslotsapp.com/
+  verified: true
+  permission: siteFullUser
+  service_account_owner: true
+
+ga4:
+  property_id: "516564043"
+  measurement_id: G-PZT5Q70SZC
+  service_account_viewer: true
+
+# Brand / Positioning
+target_market: Myanmar (MM)
+target_language: my-MM
+target_keywords:
+  primary: ["myanmar slot app", "slot apk myanmar"]
+  secondary: []
+position: "Myan Slots App — Myanmar gambling network"
+
+# Affiliate
+affiliate_cloak_path: /go/sa
+affiliate_destination: https://www.rr95k.com/?ch=0cf28df51e
+
+# Current State (auto-updated by sk-tech / sk-content)
+current_state:
+  body_words: 1000
+  h2_count: 8
+  h3_count: 12
+  sitemap_urls: 1
+  indexed_pages_90d: 3
+  clicks_90d: 51
+  impressions_90d: 1077
+  last_full_audit: 2026-06-17
+  last_content_update: 2026-06-18
+  last_visual_screenshot: /tmp/all-sites-visual/myanslotsapp.com.png
+
+# Known Issues
+known_issues: []
+
+# Confirmed Facts
+confirmed_facts:
+  pbn_inline_strategy: nofollow  # All cross-network <a href> require rel=nofollow noopener noreferrer
+
+# Pending Decisions
+pending_decisions: []
